@@ -1,0 +1,134 @@
+
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+        }
+
+        .redes {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+        }
+
+        .redes a {
+            border: 3px dashed #0080ff;
+            padding: 3px 6px;
+            color: #22ff00;
+            font-weight: bold;
+            
+        }
+
+        nav {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 8px;
+        }
+
+        section {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .titulo {
+            background-color: #ff9966;
+            text-align: center;
+            font-weight: bold;
+            padding: 6px;
+            border-top: 2px solid brown;
+            border-bottom: 2px solid brown;
+        }
+
+        .apartado {
+            border: 1px dotted gray;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .texto {
+            color: #333;
+        }
+
+        .imagen {
+            width: 200px;
+            height: 100px;
+            background-color: #ddd;
+            display:inline-block;
+            line-height: 100px;
+            margin-left: 10px;
+            padding: auto;
+            padding-right: 20px;
+        }
+
+        .foto {
+            width: 200px;
+            height: 100px;
+            background-color: #ddd;
+            display:inline-block;
+            text-align: left;
+            line-height: 100px;
+            margin-left: 10px;
+            padding: auto;
+        }
+
+        .autor {
+            margin-top: 5px;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .columna {
+            background-color: cadetblue;
+        }
+
+        .columnaa{
+            background-color: white;
+        }
+
+        .columnaaa{
+            background-color: aquamarine;
+        }
+
+        tr:nth-child(2) {
+            background-color: orange;
+        }
+
+        footer {
+            border: 2px dotted magenta;
+            text-align: center;
+            font-weight: bold;
+            color: purple;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .brasil{
+            color:#333;
+            font-style: italic;
+            font-weight: bold;
+        }
+            
+            
+        
+        
+    

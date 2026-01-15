@@ -1,0 +1,15 @@
+<!ELEMENT lliga (equip*)>
+<!ELEMENT equip (nom, esport, ubicació, director, jugadors+, preparador*, num_victories?, num_derrotes?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT esport (#PCDATA)>
+<!ELEMENT ubicació (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT jugadors (nom_jugador, cognom1_jugador, cognom2_jugador, funció_principal, funció_secundaria)>
+<!ELEMENT nom_jugador (#PCDATA)>
+<!ELEMENT cognom1_jugador (#PCDATA)>
+<!ELEMENT cognom2_jugador (#PCDATA)>
+<!ELEMENT funció_principal (#PCDATA)>
+<!ELEMENT funció_secundaria (#PCDATA)>
+<!ELEMENT preparador (#PCDATA)>
+<!ELEMENT num_victories (#PCDATA)>
+<!ELEMENT num_derrotes (#PCDATA)>

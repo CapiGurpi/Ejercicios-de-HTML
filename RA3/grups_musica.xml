@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grupos_musica SYSTEM "grups_musica.dtd">
+<!-- 
+2 1,5p] Crea un document XML que estructuri informació de diferents grups de música. Ha de poder
+estructurar correctament com a mínim el nom, el gènere, la web oficial, el número d’integrants, el
+nom dels integrants, el número de concerts i el número de fans. Com a mínim guarda dos grups i
+dos integrants a cada grup.
+-->
+
+<grupos_musica>
+    <grupo>
+    <nombre> Artic Monkeys </nombre>
+    <género> Indie Rock </género>
+    <web_oficial> https://www.arcticmonkeys.com </web_oficial>
+    <num_integrantes> 4 </num_integrantes>
+    <integrantes>
+        <nombre_i> Alex </nombre_i>
+        <nombre_i> Matt </nombre_i>
+    </integrantes>
+    <num_conciertos> 350 </num_conciertos>
+    <num_fans> 15000000 </num_fans>
+    </grupo>
+    <grupo>
+    <nombre> Imagine Dragons </nombre>
+    <género> Pop Rock </género>
+    <web_oficial> https://www.imaginedragonsmusic.com </web_oficial>
+    <num_integrantes> 4 </num_integrantes>
+    <integrantes>
+        <nombre_i> Dan Reynolds </nombre_i>
+        <nombre_i> Wayne Sermon </nombre_i>
+    </integrantes>
+    <num_conciertos> 420 </num_conciertos>
+    <num_fans> 25000000 </num_fans>
+    </grupo>
+</grupos_musica>

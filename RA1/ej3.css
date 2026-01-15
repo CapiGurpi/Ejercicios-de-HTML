@@ -1,0 +1,89 @@
+ body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #000000;
+            padding: 20px;
+        }
+
+        img {
+            width: 500px;
+            height: 300px;
+            padding: auto;
+            border:color-mix(in hsl shorter hue, white 50%, purple 50%) double;
+            border-width: 10px;
+        }
+        nav {
+            background-color: #284d73;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            color: blanchedalmond;
+        }
+
+        .apartado {
+            border: 2px dotted black;
+            padding: 10px;
+        }
+
+        .titulo1 {
+            background-color: yellow;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .autor {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .titulo2 {
+            border: 2px solid magenta;
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgreen;
+        }
+
+        tr:nth-child(2) {
+            background-color: orange;
+        }
+
+        footer {
+            margin-top: 20px;
+            border: 2px dotted green;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            color: purple;
+        }
+
+        a{
+            text-decoration: none;
+        }

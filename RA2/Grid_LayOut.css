@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-rows: 150px auto;
+    height: 100vh;
+}
+
+.logo {
+    background: #6fa0d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-web {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #cddcaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lateral {
+    background: #8f8f8f;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    object-fit: cover;
+    background: white;
+}
+
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #b3b3b3;
+    padding-left: 20px;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.contenedor-articulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #d9d9d9;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo-card {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+

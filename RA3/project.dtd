@@ -1,0 +1,16 @@
+<!ELEMENT llibreta_contactes (contacto+)>
+<!ELEMENT contacto (nombre,apellidos,edad, direción*, dir.email, telefons)>
+<!ATTLIST contacto es_familiar (si|no) #REQUIRED>
+<!ELEMENT direción (calle,num_calle?, cod.postal, ciudad)>
+<!ATTLIST direción domicilio CDATA #REQUIRED>
+<!ELEMENT telefons (fix, móbil)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT num_calle (#PCDATA)>
+<!ELEMENT cod.postal (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT dir.email (#PCDATA)>
+<!ELEMENT fix (#PCDATA)>
+<!ELEMENT móbil (#PCDATA)>

@@ -1,0 +1,10 @@
+<!ELEMENT grupos_musica (grupo*)>
+<!ELEMENT grupo (nombre, género?, web_oficial?, num_integrantes, integrantes, num_conciertos, num_fans)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT género (#PCDATA)>
+<!ELEMENT web_oficial (#PCDATA)>
+<!ELEMENT num_integrantes (#PCDATA)>
+<!ELEMENT integrantes (nombre_i+)>
+<!ELEMENT nombre_i (#PCDATA)>
+<!ELEMENT num_conciertos (#PCDATA)>
+<!ELEMENT num_fans (#PCDATA)>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lliga SYSTEM "equips_fut.dtd">
+
+<!--
+3 1,5p] Crear un document XML que contingui informació d’un equip de jugadors d’una lliga. Como
+mínim a de contenir:
+3.2 de cada jugador el nom, cognom, funció principal, funcions secundaries,
+3.3 de cada equip el nom de l’equipo, a què juguen, ubicació, director, preparador, número de
+victòries i derrotes d’aquest any.
+3.4 Afegeix un mínim de dos equips i dos jugadors amb informacions diferents i coherents.
+-->
+
+<lliga>
+    <equip>
+        <nom> F.C. Barcelona </nom>
+        <esport> Futbol </esport>
+        <ubicació> Barcelona </ubicació>
+        <director> Joan Soler </director>
+        <jugadors>
+            <nom_jugador> Marc </nom_jugador>
+            <cognom1_jugador> García </cognom1_jugador>
+            <cognom2_jugador> Pérez </cognom2_jugador>
+            <funció_principal> Davanter </funció_principal>
+            <funció_secundaria> Extrem </funció_secundaria>
+        </jugadors>
+        <preparador> Carlos Martínez </preparador>
+        <num_victories> 28 </num_victories>
+        <num_derrotes> 5 </num_derrotes>
+    </equip>
+
+    <equip>
+        <nom> Real Madrid C.F. </nom>
+        <esport> Futbol </esport>
+        <ubicació> Madrid </ubicació>
+        <director> Álvaro Rubio </director>
+        <jugadors>
+            <nom_jugador> Sergio </nom_jugador>
+            <cognom1_jugador> López </cognom1_jugador>
+            <cognom2_jugador> Martín </cognom2_jugador>
+            <funció_principal> Defensa </funció_principal>
+            <funció_secundaria> Lateral </funció_secundaria>
+        </jugadors>
+        <preparador> Javier Ortega </preparador>
+        <num_victories> 30 </num_victories>
+        <num_derrotes> 3 </num_derrotes>
+    </equip>
+</lliga>
