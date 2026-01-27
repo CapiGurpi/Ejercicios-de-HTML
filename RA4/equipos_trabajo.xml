@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+
+    <equipos_trabajo>
+        <nombre>DevTeam</nombre>
+        <tipo_trabajo>desarrollo de software</tipo_trabajo>
+        <director>Carlos Perez</director>
+        <resultados>
+            <anio valor="2023">
+                <exitos>5</exitos>
+                <fracasos>1</fracasos>
+            </anio>
+        </resultados>
+        <integrantes>
+            <integrante>
+                <nombre>Ana</nombre>
+                <apellido>Lopez</apellido>
+                <cargo>Programador</cargo>
+                <fecha_nacimiento>1995-03-10</fecha_nacimiento>
+                <ruta_imagen>img/ana.png</ruta_imagen>
+                <hora_inicio>09:30:00</hora_inicio>
+                <fecha_inicio>2022-01-15</fecha_inicio>
+                <estadisticas>
+                    <programas>12</programas>
+                    <bugs>3</bugs>
+                </estadisticas>
+            </integrante>
+            <integrante>
+                <nombre>Mario</nombre>
+                <apellido>Garcia</apellido>
+                <cargo>Tester</cargo>
+                <fecha_nacimiento>1990-07-20</fecha_nacimiento>
+                <ruta_imagen>img/mario.png</ruta_imagen>
+                <hora_inicio>10:00:00</hora_inicio>
+                <fecha_inicio>2021-09-01</fecha_inicio>
+                <estadisticas>
+                    <tests>30</tests>
+                    <errores>2</errores>
+                </estadisticas>
+            </integrante>
+        </integrantes>
+    </equipos_trabajo>
+</equipos>

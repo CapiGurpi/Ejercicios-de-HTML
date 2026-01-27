@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>El senyor dels anells</titulo>
+
+    <escritores>
+        <escritor>J.R.R. Tolkien</escritor>
+    </escritores>
+
+    <ediciones numero="3"/>
+
+    <publicacion>1954-07-29</publicacion>
+
+    <generos>
+        <genero>fantástico</genero>
+        <genero>aventura</genero>
+    </generos>
+</libro>

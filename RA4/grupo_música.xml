@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grupos>
+    <grupo>
+        <nombre>Los Viajeros</nombre>
+        <generos>
+            <genero>pop</genero>
+            <genero>folk</genero>
+        </generos>
+        <contacto>
+            <email>viajeros@gmail.com</email>
+            <instagram>@viajeros</instagram>
+        </contacto>
+        <web>https://www.losviajerosoficial.com</web>
+        <integrantes>
+            <integrante funcion="vocalista">
+                <edad>25</edad>
+                <nombre>Ana</nombre>
+            </integrante>
+            <integrante funcion="bateria">
+                <edad>30</edad>
+                <nombre>Carlos</nombre>
+            </integrante>
+        </integrantes>
+    </grupo>
+    <grupo>
+        <nombre>Ritmo Urbano</nombre>
+        <generos>
+            <genero>rap</genero>
+        </generos>
+        <contacto>
+            <facebook>fb.com/ritmourbano</facebook>
+            <twitter>@ritmourbano</twitter>
+        </contacto>
+        <integrantes>
+            <integrante funcion="bajo">
+                <edad>28</edad>
+                <nombre>Mario</nombre>
+            </integrante>
+        </integrantes>
+    </grupo>
+</grupos>

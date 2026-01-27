@@ -19,32 +19,32 @@ xsi:noNamespaceSchemaLocation="project.xsd">
     <nombre> ROGER </nombre>
     <apellidos> SERRATS VICENTE </apellidos>
     <edad mallor = "si"> 18 </edad>
-    <direción domicilio = "principal">
+    <dirección domicilio = "principal">
         <calle> C/ RUBIÓ I BALAGUER</calle>
         
-        <cod.postal> 08035 </cod.postal>
+        <cod_postal> 08035 </cod_postal>
         <ciudad> BARCELONA </ciudad>
-    </direción>
-    <dir.email> serri@gmail.com </dir.email>
+    </dirección>
+    <dir_email> serri@gmail.com </dir_email>
     <telefons>
         <fix>   987 67 67 67</fix>
-        <móbil> 611 47 19 77 </móbil>
+        <móvil> 611 47 19 77 </móvil>
     </telefons>
 </contacto>
 <contacto es_familiar = 'no'>
     <nombre> PAU </nombre>
     <apellidos> HERNANDEZ SADURNÍ </apellidos>
     <edad mallor = "si"> 18 </edad>
-    <direción domicilio = "secundario">
+    <dirección domicilio = "secundario">
         <calle> CARRETERA DEL PRAT </calle>
         <num_calle> 46 </num_calle>
-        <cod.postal> 08038 </cod.postal>
+        <cod_postal> 08038 </cod_postal>
         <ciudad> BARCELONA </ciudad>
-    </direción>
-    <dir.email> pauhernandezsadurni@gmail.com </dir.email>
+    </dirección>
+    <dir_email> pauhernandezsadurni@gmail.com </dir_email>
     <telefons>
         <fix> 644 89 79 69 </fix>
-        <móbil> 644 68 67 46</móbil>
+        <móvil> 644 68 67 46</móvil>
     </telefons>
 </contacto>
 </llibreta_contactes>
