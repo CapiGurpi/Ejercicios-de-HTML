@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <delegado>55945</delegado>
+    <alumno dni="93940">
+           <nombre>Rick</nombre>
+           <apell1>Grimes</apell1>
+           <apell2>Grimes</apell2>
+           <nota>7</nota>
+    </alumno>
+   <alumno dni="55945">
+          <nombre>Daryl</nombre>
+           <apell1>Dixon</apell1>
+           <apell2>Sanchez</apell2>
+           <nota>4</nota>
+    </alumno>
+    <alumno dni="6666">
+          <nombre>Carl</nombre>
+           <apell1>Grimes</apell1>
+           <apell2>Perez</apell2>
+           <nota>5</nota>
+    </alumno>
+</alumnos>
