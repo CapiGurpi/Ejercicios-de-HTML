@@ -15,6 +15,7 @@ El repositorio incluye varios archivos con ejercicios sencillos de:
 - Estilos con CSS
 - Maquetación simple
 - XSD & XML con DTD
+- BASE X
 
 ## ▶️ Uso
 Abre los archivos `.html` en tu navegador para ver el resultado de cada ejercicio.
