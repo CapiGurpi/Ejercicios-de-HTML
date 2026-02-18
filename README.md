@@ -7,6 +7,7 @@ El objetivo de estos ejercicios es practicar la estructura básica de páginas w
 - HTML5
 - CSS3
 - Visual Studio Code
+- Base
 
 ## 📁 Contenido
 El repositorio incluye varios archivos con ejercicios sencillos de:
@@ -16,6 +17,7 @@ El repositorio incluye varios archivos con ejercicios sencillos de:
 - Maquetación simple
 - XSD & XML con DTD
 - BASE X
+- XQuery
 
 ## ▶️ Uso
 Abre los archivos `.html` en tu navegador para ver el resultado de cada ejercicio.
